@@ -2,5 +2,4 @@
 
 - [x] complete readme
 - [x] give a logo
-- [ ] upload to market
-- [ ] add more snippets
+- [x] upload to market
