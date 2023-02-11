@@ -1,0 +1,31 @@
+{
+  "SingleEllipsis": {
+    "prefix": "singleEllipsis",
+    "body": ["overflow: hidden;", "text-overflow: ellipsis;", "white-space: nowrap;"],
+    "description": "单行省略",
+    "scope": "scss,css,less"
+  },
+  
+  "ScrollBar": {
+    "prefix": "scrollBar",
+    "body": [
+      "/* 设置滚动条的样式 */",
+      "$1::-webkit-scrollbar {",
+      "    width: $2px;",
+      "}",
+      "",
+      "/* 滚动槽 */",
+      "$1::-webkit-scrollbar-track {",
+      "    border-radius: 10px;",
+      "}",
+      "",
+      "/* 滚动条滑块 */",
+      "$1::-webkit-scrollbar-thumb {",
+      "    border-radius: 10px;",
+      "    background: rgba(0, 0, 0, 0.1);",
+      "}"
+    ],
+    "description": "滚动条相关属性",
+    "scope": "scss,css,less"
+  }
+}
